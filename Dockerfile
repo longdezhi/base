@@ -21,7 +21,7 @@ ADD meiduo_mall_admin.tar.gz /data/
 # WORKDIR /data/meiduo_mall/
 # RUN pip3 install -r requirements.txt
 
-EXPOSE 8000 8080 8081
+EXPOSE 8000 8082 8081
 
 COPY command.sh /data/
 WORKDIR /data/
